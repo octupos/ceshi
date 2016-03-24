@@ -14,6 +14,7 @@
 		2ADC4AB11C9A3EA0000DE217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ADC4AB01C9A3EA0000DE217 /* Assets.xcassets */; };
 		2ADC4AB41C9A3EA0000DE217 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ADC4AB21C9A3EA0000DE217 /* LaunchScreen.storyboard */; };
 		2ADC4ABD1C9A44ED000DE217 /* ZYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC4ABC1C9A44ED000DE217 /* ZYTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2ADC4AC01C9A4641000DE217 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC4ABF1C9A4641000DE217 /* TableViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		2ADC4AB51C9A3EA0000DE217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2ADC4ABB1C9A44ED000DE217 /* ZYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTableViewController.h; sourceTree = "<group>"; };
 		2ADC4ABC1C9A44ED000DE217 /* ZYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTableViewController.m; sourceTree = "<group>"; };
+		2ADC4ABE1C9A4641000DE217 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		2ADC4ABF1C9A4641000DE217 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				2ADC4AAB1C9A3EA0000DE217 /* ViewController.m */,
 				2ADC4ABB1C9A44ED000DE217 /* ZYTableViewController.h */,
 				2ADC4ABC1C9A44ED000DE217 /* ZYTableViewController.m */,
+				2ADC4ABE1C9A4641000DE217 /* TableViewController.h */,
+				2ADC4ABF1C9A4641000DE217 /* TableViewController.m */,
 				2ADC4AAD1C9A3EA0000DE217 /* Main.storyboard */,
 				2ADC4AB01C9A3EA0000DE217 /* Assets.xcassets */,
 				2ADC4AB21C9A3EA0000DE217 /* LaunchScreen.storyboard */,
@@ -157,6 +162,7 @@
 				2ADC4ABD1C9A44ED000DE217 /* ZYTableViewController.m in Sources */,
 				2ADC4AAC1C9A3EA0000DE217 /* ViewController.m in Sources */,
 				2ADC4AA91C9A3EA0000DE217 /* AppDelegate.m in Sources */,
+				2ADC4AC01C9A4641000DE217 /* TableViewController.m in Sources */,
 				2ADC4AA61C9A3EA0000DE217 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +312,7 @@
 				2ADC4ABA1C9A3EA0000DE217 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
